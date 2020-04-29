@@ -1,6 +1,6 @@
 var output = document.getElementById('output');
 var giphyURL = 'https://api.giphy.com/v1/gifs/random?api_key=';
-var giphyApiKey = [YOUR_GIPHY_API_KEY];
+var giphyApiKey = config.MY_KEY;
 var giphyTag = 'pregnant';
 var rating = 'G';
 var data;
